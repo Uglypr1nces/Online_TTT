@@ -15,5 +15,4 @@ The game includes a robust algorithm to determine the winner based on the tradit
 Scalable Design
 The code is modular and scalable, making it easy to understand and extend for future enhancements or customizations.
 
-How to Play
-Everything below is currently undergoing development. Stay tuned for the complete set of instructions on how to play the game.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
