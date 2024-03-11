@@ -15,4 +15,7 @@ The game includes a robust algorithm to determine the winner based on the tradit
 Scalable Design
 The code is modular and scalable, making it easy to understand and extend for future enhancements or customizations.
 
+Issues
+
+Images needed
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
