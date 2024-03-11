@@ -21,5 +21,6 @@ The code is modular and scalable, making it easy to understand and extend for fu
 Issues
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Images needed
+Images needed,
+
 players can replace the spot of another player
