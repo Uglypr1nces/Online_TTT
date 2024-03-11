@@ -1,6 +1,6 @@
 
 Two-Player Tic Tac Toe Game
-Welcome to the Two-Player Tic Tac Toe game! This simple yet engaging project allows two players to enjoy the classic Tic Tac Toe game on the command line. Whether you want to challenge a friend or simply pass the time, this game provides a fun and strategic experience.
+Welcome to the Two-Player Tic Tac Toe game! This simple yet engaging project allows two players to enjoy the classic Tic Tac Toe game. Whether you want to challenge a friend or simply pass the time, this game provides a fun and strategic experience.
 
 Features
 Interactive Gameplay
