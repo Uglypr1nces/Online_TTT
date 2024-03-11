@@ -18,9 +18,23 @@ The game includes a robust algorithm to determine the winner based on the tradit
 Scalable Design
 The code is modular and scalable, making it easy to understand and extend for future enhancements or customizations.
 
-Issues
+
+Setup
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Images needed,
+1. Clone the repository:
+   ```bash
+   https://github.com/Uglypr1nces/Online_TTT.git
 
+2. Install Dependencies:
+   ```bash
+   powershell script.ps1
+
+3. start game:
+   open Online_TTT.sln and run it
+   
+
+Issues
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 players can replace the spot of another player
+client, server connection
