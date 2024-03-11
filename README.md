@@ -7,7 +7,7 @@ Interactive Gameplay
 Enjoy playing Tic Tac Toe with a friend in a turn-based format.
 
 Simple Interface
-The game features a clean and straightforward command line interface, making it easy to understand and play.
+The game features a clean and straightforward ui interface, making it easy to understand and play.
 
 Winning Logic
 The game includes a robust algorithm to determine the winner based on the traditional Tic Tac Toe rules.
