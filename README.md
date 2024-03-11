@@ -28,7 +28,7 @@ Setup
 
 2. Install Dependencies:
    ```bash
-   powershell script.ps1
+   powershell -script script.ps1
 
 3. start game:
    open Online_TTT.sln and run it
