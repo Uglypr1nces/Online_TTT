@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $MyDir = [System.IO.Path]::GetDirectoryName($myInvocation.MyCommand.Definition)
 $SourceFolder = Join-Path -Path $MyDir -ChildPath "images"
 $TargetFolder = Join-Path -Path $MyDir -ChildPath "Online_TTT\Online_TTT\bin\Debug"
@@ -15,3 +16,12 @@ Get-ChildItem -Path $SourceFolder -Filter '*.jpg' -File |
     }
 
 
+=======
+$MyDir = [System.IO.Path]::GetDirectoryName($myInvocation.MyCommand.Definition)
+$SourceFolder = Join-Path -Path $MyDir -ChildPath "images"
+$TargetFolder = Join-Path -Path $MyDir -ChildPath "Online_TTT\bin\Debug"
+
+Copy-Item -Path $SourceFolder -Destination $TargetFolder -Recurse
+
+
+>>>>>>> 237e7cf32d2bcdb10cda17eca36f59e0a0130f33
