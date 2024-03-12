@@ -20,7 +20,7 @@ namespace Online_TTT
         string x = Path.Combine(Application.StartupPath, "x.png");
         string o = Path.Combine(Application.StartupPath, "o.png");
         string nothing = Path.Combine(Application.StartupPath, "nothing.png");
-
+        
         public Form1()
         {
             InitializeComponent();
@@ -34,7 +34,6 @@ namespace Online_TTT
             {
                 pictureBox.Load(nothing);
                 pictureBox.Tag = "";
-                
             }
             
         }
@@ -106,7 +105,6 @@ namespace Online_TTT
             }
 
         }
-
         private bool playerturn(int num)
         {
             if(num % 2 == 0) 
@@ -120,163 +118,191 @@ namespace Online_TTT
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox1.Tag == "")
             {
-                pictureBox1.Load(x);
-                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox1.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox1.Load(x);
+                    pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox1.Tag = x;
+
+                }
+                else
+                {
+                    pictureBox1.Load(o);
+                    pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox1.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox1.Load(o);
-                pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox1.Tag = o;
-            }
-            counter++;
-            checker();
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox2.Tag == "")
             {
-                pictureBox2.Load(x);
-                pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox2.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox2.Load(x);
+                    pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox2.Tag = x;
+                }
+                else
+                {
+                    pictureBox2.Load(o);
+                    pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox2.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox2.Load(o);
-                pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox2.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox3.Tag == "")
             {
-                pictureBox3.Load(x);
-                pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox3.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox3.Load(x);
+                    pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox3.Tag = x;
+                }
+                else
+                {
+                    pictureBox3.Load(o);
+                    pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox3.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox3.Load(o);
-                pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox3.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox4.Tag == "")
             {
-                pictureBox4.Load(x);
-                pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox4.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox4.Load(x);
+                    pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox4.Tag = x;
+                }
+                else
+                {
+                    pictureBox4.Load(o);
+                    pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox4.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox4.Load(o);
-                pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox4.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox5.Tag == "")
             {
-                pictureBox5.Load(x);
-                pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox5.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox5.Load(x);
+                    pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox5.Tag = x;
+                }
+                else
+                {
+                    pictureBox5.Load(o);
+                    pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox5.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox5.Load(o);
-                pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox5.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox6.Tag == "")
             {
-                pictureBox6.Load(x);
-                pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox6.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox6.Load(x);
+                    pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox6.Tag = x;
+                }
+                else
+                {
+                    pictureBox6.Load(o);
+                    pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox6.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox6.Load(o);
-                pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox6.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox7.Tag == "")
             {
-                pictureBox7.Load(x);
-                pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox7.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox7.Load(x);
+                    pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox7.Tag = x;
+                }
+                else
+                {
+                    pictureBox7.Load(o);
+                    pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox7.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox7.Load(o);
-                pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox7.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox8.Tag == "")
             {
-                pictureBox8.Load(x);
-                pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox8.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox8.Load(x);
+                    pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox8.Tag = x;
+                }
+                else
+                {
+                    pictureBox8.Load(o);
+                    pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox8.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox8.Load(o);
-                pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox8.Tag = o;
-            }
-            counter++;
-            checker();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            if (playerturn(counter))
+            if (pictureBox9.Tag == "")
             {
-                pictureBox9.Load(x);
-                pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox9.Tag = x;
+                if (playerturn(counter))
+                {
+                    pictureBox9.Load(x);
+                    pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox9.Tag = x;
+                }
+                else
+                {
+                    pictureBox9.Load(o);
+                    pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
+                    pictureBox9.Tag = o;
+                }
+                counter++;
+                checker();
             }
-            else
-            {
-                pictureBox9.Load(o);
-                pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
-                pictureBox9.Tag = o;
-            }
-            counter++;
-            checker();
         }
     }
 }
