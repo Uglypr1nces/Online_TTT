@@ -17,17 +17,14 @@ namespace Online_TTT
     {
         //variables:
         int counter = 1;
-<<<<<<< HEAD
         string x = Path.Combine(Application.StartupPath, "x.png");
         string o = Path.Combine(Application.StartupPath, "o.png");
         string nothing = Path.Combine(Application.StartupPath, "nothing.png");
-        
-=======
+
         string x = Path.Combine(Application.StartupPath, "images/x.png");
         string o = Path.Combine(Application.StartupPath, "images/o.png");
         string nothing = Path.Combine(Application.StartupPath, "images/nothing.png");
 
->>>>>>> 237e7cf32d2bcdb10cda17eca36f59e0a0130f33
         public Form1()
         {
             InitializeComponent();
